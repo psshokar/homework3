@@ -1,0 +1,121 @@
+/* Worked with Austin Leslie */
+
+/*STARTER CODE*/ 
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+body{
+  font-family: 'Andika', sans-serif;
+  color: black;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-position: center;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+h1{
+  color: #8000FF;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+p{
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+a{
+font-size: 16px;
+color: #6E1230;
+text-decoration: underline;
+text-decoration-style: wavy;
+}
+
+
+table{
+    border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    border-collapse: separate;
+  }
+
+.colhead{
+  min-width: 100px;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0820;
+}
+
+.rowhead{
+  border-top: 2px solid #000000;
+}
+
+td{
+  text-align: center;
+  border-top: 2px solid #000000;
+  padding: 15px;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 15px;
+}
+
+*:focus{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+tr:nth-child(even){
+  background-color: rgb(82, 82, 82, 0.0);
+}
+
+tr:nth-child(odd){
+  background-color: #D1D1D1;
+}
+
+tr:hover{
+    background-color: rgb(126, 8, 32, 0.5);
+
+}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 15px;
+}
+
+thead tr:last-child th:last-child{
+  border-top-right-radius: 15px;
+
+}
+
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background: #000000;
+  text-align:center;
+  color: #ffffff;
+  min-height: 60px;
+}
